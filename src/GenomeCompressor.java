@@ -26,8 +26,14 @@ public class GenomeCompressor {
     public static void compress() {
 
         // TODO: complete the compress() method
-
+        //Read each char from the genome
+        char c = BinaryStdIn.readChar(0);
         BinaryStdOut.close();
+
+        while(!BinaryStdIn.isEmpty())
+        {
+            //insert more code here
+        }
     }
 
     /**
@@ -36,6 +42,11 @@ public class GenomeCompressor {
     public static void expand() {
 
         // TODO: complete the expand() method
+        //Take in the binary sequence while the file isn't empty
+        while(!BinaryStdIn.isEmpty())
+        {
+            //insert more code here
+        }
 
         BinaryStdOut.close();
     }
